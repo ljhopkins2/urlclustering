@@ -42,7 +42,7 @@ tags = [
 arts = ["http://example.com/article/?id=%s" % x for x in range(10)]
 
 # c = urlclustering.cluster(urls + cats + tags + arts + info_pages, 5)
-c = urlclustering.cluster(info_pages, 1)
+c = urlclustering.cluster(info_pages, 2)
 
 pprint(c['clusters'])
 print('UNCLUSTERED:')
